@@ -1,6 +1,6 @@
 ## EMDX CHALLENGE
 
-#### LIVE DEMO : https://emdx.conradocanas.com.ar
+#### LIVE DEMO : https://conradocanas.github.io/emdxchallenge/
 
 ##### TECHOCNOLOGIES USED
 
