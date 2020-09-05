@@ -45,7 +45,7 @@ body {
   max-width: 1650px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .coin-box {
   margin-top:20px;
