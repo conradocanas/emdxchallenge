@@ -122,7 +122,7 @@ export default {
         this.calc1 = (value * this.countryRate).toFixed(2);
       } else {
         this.calc1 = value;
-        this.calc2 = (value / this.countryRate).toFixed(2);
+        this.calc2 = (value / this.countryRate).toFixed(5);
       }
     },
   },

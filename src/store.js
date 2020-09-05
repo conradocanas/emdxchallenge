@@ -7,7 +7,7 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   strict: true,
   state: {
-    currencies: localStorage.hasOwnProperty.call('vue-crypto-currencies-new')? JSON.parse(localStorage.getItem('vue-crypto-currencies-new')) : defaultPair,
+    currencies: defaultPair,
     tickers: {},
     chartData: []
   },

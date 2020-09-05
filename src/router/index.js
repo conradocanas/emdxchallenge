@@ -13,10 +13,7 @@ Vue.use(VueRouter)
   {
     path: '/candlesticksgraphic',
     name: 'Candlesticks graphic',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/CandlesticksView.vue')
+    component: () => import('../views/CandlesticksView.vue')
   }
 ]
 
