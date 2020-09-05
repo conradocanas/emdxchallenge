@@ -6,6 +6,12 @@
 
 Vuejs, Vuex, Vuetify, WebSockets & APIRest
 
+##### EXTRAS
+✅ WebSockets
+✅ Vuetify
+✅ Responsive design
+🕒 Add test cases to components - In progress
+
 ### Project setup
 ```
 npm install
