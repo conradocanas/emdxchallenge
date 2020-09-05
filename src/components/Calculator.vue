@@ -39,9 +39,9 @@
             <p class="rate" :key="APIvalue.sell">Rate: {{ APIvalue.sell }}</p>
             <input
               class="currency-input"
-              @keyup.stop="calcInput_2"
+              @keyup="calcInput_2"
               :value="calc1"
-              v-bind:key="APIvalue - 1"
+              v-bind:key="APIvalue.buy - 2"
             />
           </template>
         </template>
