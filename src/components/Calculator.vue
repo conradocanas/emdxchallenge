@@ -9,7 +9,7 @@
           <v-select
             @change="updateInputs"
             v-model="selected"
-            label="Currency"
+            label="Pick a currency"
             :items="APIkeys"
           >
           </v-select>
@@ -39,7 +39,7 @@
             <p class="rate" :key="APIvalue.sell">Rate: {{ APIvalue.sell }}</p>
             <input
               class="currency-input"
-              @keyup="calcInput_2"
+              @keyup.stop="calcInput_2"
               :value="calc1"
               v-bind:key="APIvalue - 1"
             />
@@ -58,13 +58,16 @@ export default {
     return {
       APIkeys: [],
       APIvalues: [],
-      selected: "USD",
+      selected: "Pick",
       countryRate: 0,
       calc1: "",
       calc2: "",
       firstInputSelected: true,
       input: document.getElementById("currencyInput"),
     };
+  },
+  mounted: function() {
+    this.readDataFromAPI();
   },
   methods: {
     //Reading data from API BlockChain.info
@@ -84,12 +87,10 @@ export default {
     calcInput_1: function(e, rate) {
       this.firstInputSelected = true;
       this.calculate(e, rate);
-      console.log("calcInput_1", e, rate)
     },
     calcInput_2: function(e, rate) {
       this.firstInputSelected = false;
       this.calculate(e, rate);
-      console.log("calcInput_2", e, rate)
     },
     updateInputs: function() {
       var selected;
@@ -124,10 +125,6 @@ export default {
         this.calc2 = (value / this.countryRate).toFixed(2);
       }
     },
-  },
-  //this will trigger in the onReady State
-  mounted() {
-    this.readDataFromAPI();
   },
 };
 </script>

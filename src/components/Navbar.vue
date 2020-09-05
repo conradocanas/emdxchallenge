@@ -8,7 +8,7 @@
     <v-spacer></v-spacer>
     <router-link to="/">Bitcoin converter</router-link>
     <router-link to="/candlesticksgraphic">Candlesticks graphic</router-link>
-    <v-btn icon>
+    <v-btn icon href="https://github.com/conradocanas/emdxchallenge">
       <v-tooltip bottom>
         <template v-slot:activator="{ on, attrs }">
           <v-icon color="primary" dark v-bind="attrs" v-on="on"
