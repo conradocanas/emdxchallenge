@@ -2,7 +2,7 @@
 
 #### LIVE DEMO : https://conradocanas.github.io/emdxchallenge/
 
-EMDX Front Ed technical test submitted to Cryptologic. This project is based on Vue, with Axios to connect an API and WebSockets to target cryptocurrencies prices on real time.
+EMDX Front End technical test submitted to Cryptologic. This project is based on Vue with Axios to connect an API and WebSockets to target cryptocurrencies prices on real time.
 
 ##### CHALLENGE
 ```
@@ -13,11 +13,11 @@ You must use this (https://blockchain.info/ticker ) API to get the exchanges and
 
 ✅ Candlesticks graphic view
 
-The Candlesticks graphic should have an OHLCV chart (we recommend trading-vue-js
+The Candlesticks graphic should have an OHLCV chart (we recommend trading-vue-js)
 ```
 
 
-##### TECHOCNOLOGIES USED
+##### TECHNOLOGIES USED
 
 Vue.js | Vuex | Vuetify | WebSockets | Axios | Router
 
