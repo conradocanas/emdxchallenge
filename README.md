@@ -45,6 +45,6 @@ npm run build
 
 ### Planned features since first submitting
 
-✅ BTC input change 2 to 5 decimals
-🕒 Cryto real-time cards quantity picker.
-🕒 Candlesticks graphic data extraction from real time websocket
+###### ✅ BTC input change 2 to 5 decimals
+###### 🕒 Cryto real-time cards quantity picker.
+###### 🕒 Candlesticks graphic data extraction from real time websocket
